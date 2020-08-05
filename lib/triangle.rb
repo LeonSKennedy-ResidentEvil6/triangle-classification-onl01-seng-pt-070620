@@ -16,7 +16,7 @@ class Triangle
       :equilateral
     elsif @a == @b || @a == @c || @b == @c
       :isosceles
-    elsif @a !== @b || @b != @c || @c != @a
+    elsif @a != @b || @b != @c || @c != @a
       :scalene
     end
   end
